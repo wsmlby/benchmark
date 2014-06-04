@@ -1,6 +1,6 @@
 {
   "name": "benchmark-ab",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a benchmark tool, like ab",
   "main": "benchmark",
   "scripts": {
