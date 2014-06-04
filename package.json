@@ -1,0 +1,27 @@
+{
+  "name": "benchmark",
+  "version": "0.0.0",
+  "description": "a benchmark tool, like ab",
+  "main": "benchmark",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wsmlby/benchmark.git"
+  },
+  "keywords": [
+    "bench",
+    "ab",
+    "benchmark"
+  ],
+  "author": "wsmlby",
+  "dependencies" : {
+      "optimist" : "~0.6"
+  },
+  "license": "GPL v2",
+  "bugs": {
+    "url": "https://github.com/wsmlby/benchmark/issues"
+  },
+  "homepage": "https://github.com/wsmlby/benchmark"
+}

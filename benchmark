@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+var bench = require('./bench.js');
+var path = require('path');
+var argv = require('optimist').argv;
+var target = require(path.resolve(argv._[0]));
+new bench.Benchmark(target.test, argv._[0]).run(parseInt(argv.n), parseInt(argv.c));
