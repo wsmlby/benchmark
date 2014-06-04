@@ -44,7 +44,7 @@ Benchmark.prototype.checkResult = function() {
 		var t = (Date.now()-this.begin)/1000.0;
 		print("Time taken for tests:\t"+t+" seconds");
 		print("Requests per second:\t"+this.total/t+" [#/sec] (mean)");
-		this.time = this.time.sort();
+		this.time = this.time.sort(function(a,b){return a-b});
 		var sum = 0;
 		for(var i = 0; i < this.total; i++){
 			sum+= this.time[i];

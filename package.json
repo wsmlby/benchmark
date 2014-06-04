@@ -1,5 +1,5 @@
 {
-  "name": "benchmark",
+  "name": "benchmark-ab",
   "version": "0.0.0",
   "description": "a benchmark tool, like ab",
   "main": "benchmark",
